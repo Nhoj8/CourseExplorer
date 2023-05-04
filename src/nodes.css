@@ -1,0 +1,39 @@
+div.nodes {
+    border-style: dashed;
+    border-radius: 100%;
+    width: 100px;
+height: 100px;
+
+vertical-align: middle;
+line-height: 90px;
+position: absolute;
+left:0;
+top:0;
+background-color:dimgray
+
+  }
+  div.nodes p{
+    text-align: center;
+    font-size: 10px;
+  }
+div.svg{
+position: absolute;
+left:0;
+top:0;
+padding: 0%;
+margin: 0%;
+border: 0;
+vertical-align: top;
+justify-content: top;
+display: flex;
+} 
+#centerOfMass{
+  left:0;
+top:0;
+  border-color: red;
+  border-radius: 1em;
+  border-style: solid;
+}
+body{
+  overflow: hidden;
+}
