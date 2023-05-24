@@ -4,17 +4,27 @@ div.nodes {
     width: 100px;
 height: 100px;
 
-vertical-align: middle;
-line-height: 90px;
+
+
+
 position: absolute;
 left:0;
 top:0;
-background-color:dimgray
+background-color:dimgray;
+display: table;
 
+ 
   }
+div.nodes div{
+
+  display: table-cell;
+    vertical-align: middle;
+}
   div.nodes p{
-    text-align: center;
+
     font-size: 10px;
+
+
   }
 div.svg{
 position: absolute;
